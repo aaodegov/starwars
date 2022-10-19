@@ -1,0 +1,22 @@
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 8px;
+}
+
+.button:hover {background-color: darkgoldenrod}
+
+.button:active {
+    background-color: darkgoldenrod;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
