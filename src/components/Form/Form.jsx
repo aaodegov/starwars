@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 import {useState} from "react";
 
 const Form = (props) => {
-    const { from } = props
+    const { from, updateData, updateShowForm } = props
     const [ state, setState ] = useState(1)
 
     let url = `https://swapi.dev/api/${from}/${state}/`
@@ -13,7 +13,11 @@ const Form = (props) => {
         event.preventDefault()
         fetch(url)
             .then(response => response.json())
-            .then(data => console.log(data))
+            .then(data => {
+                updateData(data)
+                updateShowForm(true)
+                console.log(data)
+            })
     }
 
     return (

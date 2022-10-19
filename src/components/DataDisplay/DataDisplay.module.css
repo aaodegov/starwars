@@ -1,14 +1,8 @@
-.form {
+
+.displayFrame {
     width: 400px;
     margin: 5px auto;
     padding: 5px;
     border: 1px solid grey;
-    border-radius: 8px;
-}
-
-.form input{
-    padding: 15px 10px;
-    margin: 10px;
-    font-size: 12px;
     border-radius: 8px;
 }
