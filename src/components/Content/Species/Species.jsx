@@ -1,7 +1,7 @@
-import Form from "../../Form/Form";
+import {RequestFormId} from "../../RequestFormId/RequestFormId";
 
 const Species = () => {
-    return <Form from={'species'} />
+    return <RequestFormId from={'species'} />
 }
 
 export default Species
