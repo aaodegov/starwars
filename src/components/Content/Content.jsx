@@ -1,6 +1,6 @@
 // import style from './Content.module.css'
 import Films from "./Films/Films";
-import People from "./People/People";
+import {People} from "./People/People";
 
 import { Routes, Route } from "react-router-dom";
 import Starships from "./Starships/Starships";
@@ -8,7 +8,7 @@ import Planets from "./Planets/Planets";
 import Species from "./Species/Species";
 import Welcome from "./Welcome/Welcome";
 
-const Content = () => {
+export const Content = () => {
 return (
     <Routes>
                 <Route path='/' element={<Welcome />} />
@@ -21,4 +21,3 @@ return (
 )
 }
 
-export default Content

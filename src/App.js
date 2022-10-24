@@ -1,4 +1,4 @@
-import GlobalWrapper from "./components/GlobalWrapper";
+import {GlobalWrapper} from "./components/GlobalWrapper";
 import './App.css';
 
 function App() {

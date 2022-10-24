@@ -1,6 +1,6 @@
 import style from './DataDisplay.module.css'
 
-const PeopleDataDisplay = (props) => {
+export  const PeopleDataDisplay = (props) => {
     const {data, showForm} = props
 
     //
@@ -26,5 +26,3 @@ const PeopleDataDisplay = (props) => {
         </div>
     )
 }
-
-export default PeopleDataDisplay

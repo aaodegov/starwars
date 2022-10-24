@@ -1,7 +1,7 @@
 import style from './Header.module.css'
 import {  NavLink } from "react-router-dom";
 
-const Header = () => {
+export const Header = () => {
     return (
         <nav className={style.nav}>
             <div>
@@ -23,4 +23,3 @@ const Header = () => {
     )
 }
 
-export default Header

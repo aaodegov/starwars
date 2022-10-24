@@ -1,7 +1,7 @@
-import Form from "../../Form/Form";
+import {RequestFormId} from "../../RequestFormId/RequestFormId";
 
 const Planets = () => {
-    return <Form from={'planets'} />
+    return <RequestFormId from={'planets'} />
 }
 
 export default Planets
